@@ -1,0 +1,31 @@
+# requirements.txt
+
+fastapi
+uvicorn[standard]
+python-multipart
+jinja2
+websockets
+
+# Các gói langchain đã được cập nhật ĐẦY ĐỦ
+langchain
+langchain-community
+langchain-huggingface
+langchain-chroma
+
+# Các gói cốt lõi
+chromadb
+sentence-transformers
+transformers[audio]
+torch
+accelerate
+huggingface_hub
+google-generativeai
+# Các gói đọc tài liệu
+pypdf
+pandas
+unstructured
+
+# Gói âm thanh
+gTTS
+playsound
+pydub
